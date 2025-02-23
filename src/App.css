@@ -1,0 +1,71 @@
+/* Default Styles */
+.App {
+  text-align: center;
+}
+
+/* Light Mode */
+body.light {
+  background-color: white;
+  color: #000000;
+}
+
+/* Dark Mode */
+body.dark {
+  background-color: rgb(55, 51, 51);
+  color: white;
+}
+
+/* Smooth Transition */
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* App Logo */
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* App Header */
+.App-header {
+  background-color: var(--header-bg);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: var(--header-text);
+}
+
+/* Dynamic Theme Variables */
+body.light .App-header {
+  --header-bg: #f8f9fa;
+  --header-text: #000000;
+}
+
+body.dark .App-header {
+  --header-bg: #282c34;
+  --header-text: #ffffff;
+}
+
+/* Links */
+.App-link {
+  color: #61dafb;
+}
+
+/* Keyframe Animation */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
