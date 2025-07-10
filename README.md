@@ -1,4 +1,4 @@
-📝 NeoNotes – Smart Note-Taking Web App
+📝 NeoNotes – A Smart Note-Taking Web App
 NeoNotes is a modern and intuitive web application for organizing your thoughts, tasks, and ideas efficiently. Designed with simplicity and productivity in mind, it allows users to create, edit, delete, and organize notes in a clean, user-friendly interface.
 
 🚀 Features
