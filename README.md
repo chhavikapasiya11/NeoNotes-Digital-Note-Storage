@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+📝 NeoNotes – Smart Note-Taking Web App
+NeoNotes is a modern and intuitive web application for organizing your thoughts, tasks, and ideas efficiently. Designed with simplicity and productivity in mind, it allows users to create, edit, delete, and organize notes in a clean, user-friendly interface.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🚀 Features
+✍️ Create, Edit, and Delete Notes
 
-## Available Scripts
+🗂️ Organize Notes by Title or Timestamp
 
-In the project directory, you can run:
+🌙 Dark/Light Mode Toggle (Optional)
 
-### `npm start`
+🔍 Real-Time Search Functionality
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+💾 Notes Stored in Local Storage or Database (based on your setup)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+📱 Fully Responsive UI for Mobile & Desktop
 
-### `npm test`
+🛠️ Tech Stack
+Frontend:
+React.js
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+React Router
 
-### `npm run build`
+Tailwind CSS / Bootstrap (customizable)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Context API / Redux (if state management is used)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Backend (optional, if storing notes server-side):
+Node.js
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Express.js
 
-### `npm run eject`
+MongoDB + Mongoose
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+JWT for Authentication (if login is enabled)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+⚙️ Setup Instructions
+1. Clone the Repository
+Clone the project from GitHub:
+https://github.com/yourusername/neonotes.git
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Navigate into the project folder:
+cd neonotes
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. Frontend Setup
+Go to the frontend directory: cd frontend
 
-## Learn More
+Install dependencies: npm install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Start the development server: npm start
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Visit http://localhost:3000 in your browser
 
-### Code Splitting
+3. Backend Setup (if applicable)
+Navigate to the backend folder: cd backend
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Install dependencies: npm install
 
-### Analyzing the Bundle Size
+Create a .env file with your configuration:
+PORT=5000  
+MONGO_URI=your_mongodb_uri  
+JWT_SECRET=your_secret_key  
+Start the server: npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Backend will run on http://localhost:5000
 
-### Making a Progressive Web App
+📸 Working video demo:
+https://drive.google.com/file/d/1kd3SgC_9k-3AjrffcES1t-b-fxTSJleL/view?usp=sharing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+👩‍💻 About Me
+I'm Chhavi Kapasiya, a full-stack developer passionate about creating simple, impactful web applications. NeoNotes reflects my love for clean UI, productivity tools, and delivering seamless user experiences with modern web tech.
