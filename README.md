@@ -6,7 +6,7 @@ NeoNotes is a modern and intuitive web application for organizing your thoughts,
 
 🗂️ Organize Notes by Title or Timestamp
 
-🌙 Dark/Light Mode Toggle (Optional)
+🌙 Dark/Light Mode Toggle 
 
 🔍 Real-Time Search Functionality
 
@@ -17,20 +17,13 @@ NeoNotes is a modern and intuitive web application for organizing your thoughts,
 🛠️ Tech Stack
 Frontend:
 React.js
-
 React Router
+HTML, CSS / Bootstrap (customizable)
 
-Tailwind CSS / Bootstrap (customizable)
-
-Context API / Redux (if state management is used)
-
-Backend (optional, if storing notes server-side):
+Backend:
 Node.js
-
 Express.js
-
 MongoDB + Mongoose
-
 JWT for Authentication (if login is enabled)
 
 ⚙️ Setup Instructions
