@@ -36,7 +36,7 @@ JWT for Authentication (if login is enabled)
 ⚙️ Setup Instructions
 1. Clone the Repository
 Clone the project from GitHub:
-https://github.com/yourusername/neonotes.git
+https://github.com/chhavikapasiya11/NeoNotes-Digital-Note-Storage.git
 
 Navigate into the project folder:
 cd neonotes
